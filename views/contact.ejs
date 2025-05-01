@@ -1,0 +1,53 @@
+<%- include('./partials/header.ejs') %>
+<div class="wrapper">
+  <%- include('./partials/sideBar.ejs') %>
+  <%- include('./partials/navBar.ejs', {page_name : "contact"}) %>
+  
+  <div class="contact-section" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-content">
+      <div class="contact-left">
+        <p class="contact-paragraph">contact info</p>
+        <div class="mail-info">
+          <img src="/images/email icon.png" alt="instagram" />
+          <p>armanyusuf12@gmail.com</p>
+        </div>
+        <div class="mail-info">
+          <img src="/images/whatsapp icon.png" alt="instagram" />
+          <p>+917607170758</p>
+        </div>
+        <p class="socials-paragraph">social handles</p>
+        <div class="socials">
+          <a href="#">
+            <img
+            src="/images/facebook-logo-icon-facebook-logo-png-transparent-svg-vector-bie-supply-16 copia.png"
+            alt="fb"
+            />
+          </a>
+          <a href="#">
+            <img src="/images/x-image copia 2.png" alt="x" />
+          </a>
+          <a href="#">
+            <img
+            src="/images/linkedin-icon-logo-png-transparent copia.png"
+            alt="linkedIN"
+            />
+          </a>
+          <a href="#">
+            <img src="/images/pinterest copia.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <h3>contact via mail</h3>
+        <form class="contact-forms">
+          <input type="text" placeholder="full name" />
+          <input type="emai" placeholder="example@email.com" />
+          <input type="text-area" placeholder="your message" />
+          <button type="submit">send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <%- include('./partials/footer.ejs') %>
